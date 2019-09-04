@@ -17,7 +17,7 @@
 		}
 
 		.caixa-texto{
-			width: 200px;
+			width: 75%;
 		}
 	</style>
 
@@ -29,7 +29,7 @@
 		<input id="codificado" class="caixa-texto" type="text">
 		<br>
 		<br>
-		<button id="decodificador"  class="caixa-texto" >Decodificar</button>
+		<button id="decodificador"  class="caixa-texto" onclick="cod();">Decodificar</button>
 	</form>
 </center>
 
@@ -37,12 +37,27 @@
 
 <script type="text/javascript">
 	
-	getElementById('');
+
+	function cod() {
+		var codificado = document.getElementById('codificado');
+		var x = codificado.value;
+		alert(x);
+	}
 
 </script>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
 
 
 
